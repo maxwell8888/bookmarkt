@@ -56,13 +56,14 @@
 extern crate derive_builder;
 
 mod collection;
-mod item;
 mod node_ref_ext;
 
 mod bookmark;
 mod folder;
+mod item;
 mod netscape;
 
 pub use bookmark::Bookmark;
 pub use folder::Folder;
+pub use item::Item;
 pub use netscape::Netscape;
